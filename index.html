@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="dark-mode-toggle-wrap">
+        <button class="theme-toggle" aria-label="Switch to dark theme">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+            height="100%" viewBox="0 0 212.1 212.1" xml:space="preserve" fill="currentColor">
+                <g class="toggle-sun">
+                    <path d="M181.1,75V31.1h-43.9L106.1,0L75,31.1H31.1V75L0,106.1l31.1,31.1v43.9H75l31.1,31.1l31.1-31.1h43.9v-43.9l31.1-31.1
+                    L181.1,75z M106.1,162.1c-30.9,0-56-25.1-56-56s25.1-56,56-56s56,25.1,56,56S137,162.1,106.1,162.1z"/>
+                </g>
+                <g class="toggle-circle">
+                    <circle cx="106.1" cy="106.1" r="41"/>
+                </g>
+            </svg>
+        </button>
+    </div>
+    
+    <!-- calculator -->
+    <div class="calc">
+        <section class="calc__screen">
+            <div class="prev" data-previous-operand></div>
+            <div class="curr" data-current-operand>0</div>
+        </section>
+        <section class="calc__buttons">
+            <button class="calc__button span-double clear" data-all-clear>AC</button>
+            <button class="arrow calc__button symbol" data-delete>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-left"
+                    class="svg-inline--fa fa-long-arrow-alt-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                        d="M134.059 296H436c6.627 0 12-5.373 12-12v-56c0-6.627-5.373-12-12-12H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.569 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296z">
+                    </path>
+                </svg>
+            </button>
+            <button class="calc__button symbol" data-operation>÷</button>
+            <button class="calc__button" data-number>7</button>
+            <button class="calc__button" data-number>8</button>
+            <button class="calc__button" data-number>9</button>
+            <button class="calc__button symbol" data-operation>×</button>
+            <button class="calc__button" data-number>4</button>
+            <button class="calc__button" data-number>5</button>
+            <button class="calc__button" data-number>6</button>
+            <button class="calc__button symbol" data-operation>-</button>
+            <button class="calc__button" data-number>1</button>
+            <button class="calc__button" data-number>2</button>
+            <button class="calc__button" data-number>3</button>
+            <button class="calc__button symbol" data-operation>+</button>
+            <button class="span-double calc__button" data-number>0</button>
+            <button class="zero calc__button" data-number>.</button>
+            <button class="equal calc__button symbol" data-equal>=</button>
+        </section>
+    </div>
+</body>
+
+</html>
