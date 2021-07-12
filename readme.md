@@ -4,4 +4,4 @@ A basic calculator with a light/dark theme that initially takes the user theme p
 
 ---
 
-![Presentation GIF](https://github.com/tupacan/js-calculator/raw/main/images/preview.gif)
+![Presentation GIF](https://raw.githubusercontent.com/tupacan/js-calculator/main/preview.gif)
