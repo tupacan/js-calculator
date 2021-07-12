@@ -4,7 +4,7 @@ A basic calculator with a light/dark theme that initially takes the user theme p
 
 [Demo Link](http://calc.angeltasevski.com/)
 
-_Note: It is ES6 and no Babel, so it **should not** work in older browsers._
+_Note: It is ES6 and no Babel, but I'm sure that you are already using a modern browser._
 
 ---
 
